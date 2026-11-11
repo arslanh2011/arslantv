@@ -17,3 +17,5 @@ keystore.properties
 # Build outputs — reproducible from source; attach to a GitHub Release instead
 *.apk
 *.aab
+docs/
+store-assets/legal/
