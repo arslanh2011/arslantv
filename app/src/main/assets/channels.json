@@ -1,0 +1,1692 @@
+{
+  "categories": [
+    "News",
+    "Drama",
+    "Entertainment",
+    "Film",
+    "Music",
+    "Documentary",
+    "Islamic",
+    "Cartoons"
+  ],
+  "channels": [
+    {
+      "id": "24-news-hd",
+      "name": "24 News HD",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/jh0d2yGqPLAifpxtp-EWtt1fHYFCp3jfDsOCrGPl6S4NiBon8FF1DaX-sBNAbnIEXsb3DTdo=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#C1121F",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "-RL5XC4p4WY",
+          "youtubeChannelId": "UCcmpeVbSSQlZRvHfdC-CRwg",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "365-news",
+      "name": "365 News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/MNhQtgbHlw0tYGOORhTI64fY5lwqzm1M9EibYkWSOfj8WG1x-4aGOD8ua5sY98InfTjkelI8f7s=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#3A7CA5",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "V1rvnWKUbEc",
+          "youtubeChannelId": "UCJ9Xm9zuJ9w-S7qoDO8N-wA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "89-news",
+      "name": "89 News",
+      "category": "News",
+      "accent": "#389373",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "M4B9KJOqT24",
+          "youtubeChannelId": "UC1pxVCKKoL5BZ_8w3jmqglw",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/OoY5rQHAxgbONWMcGUMGrWFVf67_C5Tf-WXMVc3oXTmhJdb4aU9323g-bF_mCaVuoe9kTTV1Vg=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "92-news",
+      "name": "92 News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/hSTolMeWLzOEL4imZHpmbp_nVqpGU-sFh6k3G0GvPG2Hj7cLGEfNAmbtnwgnatptpHMlXD-7=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#15639B",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "A6ZQOpoh5mc",
+          "youtubeChannelId": "UCsgC5cbz3DE2Shh34gNKiog",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "aik-news",
+      "name": "AIK News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/dZvFPaIsI8rROFwX1uWZK4fu70Md4Ooz6aBez1mkv-XoU7-jKs2DMc1DAFOV3xQN--bJPy5lBg=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#386641",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "X9JOiNrczyM",
+          "youtubeChannelId": "UCgodvJzJEzzJFaQO3rmqJbA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "ary-news",
+      "name": "ARY News",
+      "category": "News",
+      "logoUrl": "https://live.arynews.tv/favicon_io/apple-touch-icon.png",
+      "accent": "#C8102E",
+      "sources": [
+        {
+          "type": "hls_scrape",
+          "url": "https://live.arynews.tv/",
+          "pattern": "https://arynews\\.aryzap\\.com/[^\\\"'\\s\\\\]+main\\.m3u8[^\\\"'\\s\\\\]*",
+          "headers": {
+            "Referer": "https://live.arynews.tv/"
+          },
+          "maxHeight": 1080
+        },
+        {
+          "type": "youtube",
+          "url": "5FW9ZVMR_7M",
+          "youtubeChannelId": "UCk8Xp7mz9MfaQy2VU3FJ4Vg",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "aaj-news",
+      "name": "Aaj News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/7ceWstIx_9L12Q2pwPQWS4-1eIHGxjfzH1cXMIS_bgHtqRYL0yfjERcSU9aCKbYv3CsewJ4v=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#E8511A",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "9lLVNq4lWVk",
+          "youtubeChannelId": "UCgBAPAcLsh_MAPvJprIz89w",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "asia-one-news",
+      "name": "Asia One News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/i6m7oW2yhLtWMSe9oXBfg44g1uRmOg_j_znHXfxrcMzBQtdeE-wN-_HcAD6nVcgVLmawfSJy7Q=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#255C99",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "rMq8YZBxFkg",
+          "youtubeChannelId": "UCQ6bL2errmjnP7JIr3E8kXw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "awaz-tv",
+      "name": "Awaz TV",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/iW3xMTNwdGCHLE4XQn9qlV1fFquDBcVHnd3PeA-OfBqRI6y65fxaM7gkWYjpW87jAS5dtdwh=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#4F772D",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "aZQManZ18w0",
+          "youtubeChannelId": "UCrBoVscXRtoTKZsa2kAGdvw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "bol-news",
+      "name": "BOL News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/DNI1AzS-X2lr10Dx3AGQZdC8iGjN74PHg9FZ0_1mfeoNoUyaZRvD1Pu95pKO-zvQw0eqHlq2WoU=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#1D6F42",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "9N6SWn1BQpA",
+          "youtubeChannelId": "UCz2yxQJZgiB_5elTzqV7FiQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "channel-5",
+      "name": "Channel 5",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/lG_i4LfVC_Ao315tdqkQCeo60hBFQaz_N7QH_y7pEfgsmD3Vl1JG3jPmVusjy2GNYbYHE0lH8XQ=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#93383C",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "k32xXA5wPJU",
+          "youtubeChannelId": "UC_XJhq0u8AkMaCwLDH_PjxA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "city-42",
+      "name": "City 42",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/VmDPNdCbi7RGQrI51ZTkWMaWe43CnJsXvYBdQfYA-4E1I-inDJEbEMgubDRr8V05PcBIC9Be=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#1F6FEB",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "KU6qeGmitQ0",
+          "youtubeChannelId": "UCdTup4kK7Ze08KYp7ReiuMw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "dawn-news",
+      "name": "Dawn News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/68a9f3o813BKheJgbuzHk0j5x5PUWXlEzYMDY7vYrZTM7DHQfXk8JBfsqlSV5-KFcMOgps9PmxU=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#3F3893",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "CxtDizYfoQE",
+          "youtubeChannelId": "UCaxR-D8FjZ-2otbU0_Y2grg",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "dunya-news",
+      "name": "Dunya News",
+      "category": "News",
+      "logoUrl": "https://dunyanews.tv/english2026/assets/images/favicon/apple-touch-icon.png",
+      "accent": "#0B5FA5",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://imob.dunyanews.tv/livehd/_definst_/ngrp:dunyalivehd_2_all/playlist.m3u8",
+          "headers": {
+            "Referer": "https://dunyanews.tv/live"
+          },
+          "maxHeight": 720
+        },
+        {
+          "type": "youtube",
+          "url": "e2XVSUYh4S0",
+          "youtubeChannelId": "UCnMBV5Iw4WqKILKue1nP6Hg",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "express-news",
+      "name": "Express News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/k-jivmg9360iSkUzKNQ_BTIXiQvvz2SfV26vOD4X6xQ93JnPqh9u5ouW5cHZerQZ1c0lTxLu3g=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#C0392B",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "KNvaWHgOBMw",
+          "youtubeChannelId": "UCTur7oM6mLL0rM2k0znuZpQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "gnn",
+      "name": "GNN",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/ehEWKNzXNBLXpFaS7qxZJUQ0jLodEMjDuPExRrk1vBUwKPglvxmwbZmpdhlTmsouI5jCGXN9OnE=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#1F6FEB",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "Pzv58lUgiVo",
+          "youtubeChannelId": "UC35KuZBNIj4S5Ls0yjY-UHQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "gtv-network",
+      "name": "GTV Network",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/gh3liruI0qYF-_gexCLRt_ru8npmNJTo6qSyPqKymDE6HUVGU1Gsd2krI5_-RUHZKEviXn8khA=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#8D9338",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "F42n1LbPyxk",
+          "youtubeChannelId": "UC6XLG5YjZfK1p5oY5MJ3NMw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "geo-news",
+      "name": "Geo News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/ba1XSUznVGirkC7dP-iDCf3EcL8uUjDea3-4wxkqdyWGUlCVwLXotwRNdjQBRYg7VQ4dIEI7=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#0A6E3A",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "QZv3cFBmBKA",
+          "youtubeChannelId": "UC_vt34wimdCzdkrzVejwX9g",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "hum-news",
+      "name": "Hum News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/-fU36Wb-OG08ZHxSmjelBIqnu_LD_zVTrGtMrRibHpNtiMWvu1SFeAU4NIMwkrPdyrLYJPmH4Q=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#1A4F8B",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "AHEhtZUMML8",
+          "youtubeChannelId": "UC0Um3pnZ2WGBEeoA3BX2sKw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "jan-tv",
+      "name": "Jan TV",
+      "category": "News",
+      "accent": "#38933B",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "HnlqJ-RcPl4",
+          "youtubeChannelId": "UCjmnq35TvJ1J8JZS49OPg-Q",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/K2JpEJaxHNmw44e3LCsGAeiThFc5CEwNecG1cLhjuUoYjLWrQ9L3MIlAarNDa7-YJNawPMwo=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "k21-news",
+      "name": "K21 News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/G3eMyNlBEzXUGwXYwJPEyit33AEpV8bLdBv93wCXd28bMs2gaapb0akteSdsaXgSCqUi8oZ2kw=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#1E5F74",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "OKi2MPPRrws",
+          "youtubeChannelId": "UConNt7VZRP-w8hwTRPZ6WeQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "ktn-news",
+      "name": "KTN News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/WmXeAQXYgUlIXhxyLeGst0Xz7pZAGBNgohSPc3xeh8aQPmnDlWeC_gHW2-v_84IrC1wviJuLIA=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#A4303F",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "OwdKMeAQ2vg",
+          "youtubeChannelId": "UCRGzK5yQvhJD9-ZYGP436JQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "lahore-news",
+      "name": "Lahore News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_l_OtL7hx23HAh4sLCulRWKXd0VdYHhCV7Ov-eCRL_vKd4=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#2E7D32",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "Gg1btOFUCq8",
+          "youtubeChannelId": "UC0CbUVRC1d1RvunYbp3w2qQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "metro-one",
+      "name": "Metro One",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/5UhfhLCSgWpe18MZt6JvD6yeZxeyX3_44bxpUIA6JzCzx5Is2MOiAZBMLJ1OcuBfkiNZY7NSXA=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#4C9338",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "IkOfcMvpgy0",
+          "youtubeChannelId": "UCAu16_bjhalIo--a_H7_2Pg",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "neo-news",
+      "name": "Neo News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/aZAQq9Po-m-UXHRx1OKX5M26dwyH9RRjTqItIqiKUpiVu_OYbw7v1JQ8ucAOIhkA1HRaclYu=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#17668B",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "rM1jjvdhdoQ",
+          "youtubeChannelId": "UCVFRuO5SJ45-pu8PMLKzS2Q",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "news-one",
+      "name": "News One",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/SgT3DHVZ3ugvFhdqd19GU796_74J5jFdv6RLpDLs23f5WbXwX8P8Tq-ZJoZOn7bTY0CgYb2i7A=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#386F93",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "64JcmjI8-wI",
+          "youtubeChannelId": "UCtlUe8h_zexKmFA9M9y479w",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "ptv-news",
+      "name": "PTV News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/nnqueGOaGSP81pIgfClenqnT2fGNiQH0pgX35GVqWFeO-YLk3dUPWhaAdaHN0w0IXosHxrPM=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#0E5C2F",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "r6T5qL_tr0U",
+          "youtubeChannelId": "UC5RvV_LtR1dxPCVFGw6dxXA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "public-news",
+      "name": "Public News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/I0rRWnohHx4TSJgLIfUOUU_yl2QrodBoRyvaTFovwi3v54AhKzya9_CdFw5fvA-mEfn6UHim=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#B81D24",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "ffeTm5svgDY",
+          "youtubeChannelId": "UCElJZvY_RVra6qjD8WSQYog",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "roze-news",
+      "name": "Roze News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/fry9ExfApgoC_WsaUvwhpa_n_eabytdUqbvYS2W2I4yM8oz5gH_pI_jNfJCDRpDgj9C5opyZ7A=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#9B1C31",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "9mHmeha4nhA",
+          "youtubeChannelId": "UCgpldyt3ujHj6-qLQcYGkyQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "samaa-news-global",
+      "name": "Samaa News Global",
+      "category": "News",
+      "accent": "#389366",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "gtLY5DKqL_k",
+          "youtubeChannelId": "UCf58EcOgOC68Hd5P5MPBQaA",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/6odDzro-5ShS_QNlLmFftWBHL99ErwY_neR1XSlT6NsxDhAwAkMoMsHcJ_tuNhreIuSwHLcCEKU=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "samaa-tv",
+      "name": "Samaa TV",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/tTXEQKei5Aknpq66juIUMMOGsU9iGNzMcWyeYau6bnxMLxN_i7THGsFS1AtQ09OARSklaMZ6_w=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#E2231A",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "MLDQM0QL_-4",
+          "youtubeChannelId": "UCJekW1Vj5fCVEGdye_mBN6Q",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "sindh-tv-news",
+      "name": "Sindh TV News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/vuMpHuHWpQY3jJMGF6ogVAwC3Sk3dRUOfNJu8e5XNpNCuDBnVjKQSoXOeYLAQRIWFnYyz5eHkg=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#1B7A3D",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "fLoGc38EPJc",
+          "youtubeChannelId": "UCdNrdgAx3bT6tXJ-RJ9dOBA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "such-tv",
+      "name": "Such TV",
+      "category": "News",
+      "logoUrl": "https://www.suchtv.pk/images/Such-news-dp.png",
+      "accent": "#D7272F",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://video.primexsports.com/suchnews/live/playlist.m3u8",
+          "headers": {
+            "Referer": "https://www.suchtv.pk/live"
+          },
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "sun-news",
+      "name": "Sun News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/Xo5FczPFEZv9X3hitIF1Zi3DlNLvVc07L6K0Kn5VTJ5swEVcOxV_ZWUBxDxg8dQQOHeU7Ag=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#E09F3E",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "XUiTl9ezEX8",
+          "youtubeChannelId": "UCzislLLPhE4aRd-k-WLdLVQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "suno-news",
+      "name": "Suno News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/_DgGScTjuw4CQJZjjDFjlhtTBOlyvHRfodLVBUMjWeOWODxtDUnv3KvpH4gUevZCpPQrHDVg2w=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#E4572E",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "F6P-BFV6gWM",
+          "youtubeChannelId": "UCB82Zom1MYh8VV4q7wXkfGA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "time-news",
+      "name": "Time News",
+      "category": "News",
+      "accent": "#388993",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "AY5DuNWGzsI",
+          "youtubeChannelId": "UC2fR9hFABsXz6sCskQVU8wA",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/26_RbsOZ_aWVFfs9-uzbDEefLoAJv-6n3ACQVYnODoKscJfqutjQyD4GNdqqB7u03jHsJVt0lg=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "vsh-news",
+      "name": "VSH News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/LCeWAx7-UAbfBFXSmHh7ZKxhL6-IjoYLmMTPNg1bh163QB6F20tts4xopR2RkYErrK08ibx_DQ=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#BC4B51",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "v01-zbmlOB8",
+          "youtubeChannelId": "UCItGdMDIjRTWrYmvVFfjpQA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "ptv-world",
+      "name": "PTV World",
+      "category": "News",
+      "accent": "#145A32",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UCj-e7yp2_-qE-TPritppZGQ",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/9HmzrkGcKeBbpoZlQ5IRP--YzXhtnrdpBkwJ3TiGmc7pEv8XvxIoSaZrUh434-Md-VNSk-UzhA=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "cgtn",
+      "name": "CGTN",
+      "category": "News",
+      "accent": "#1A5FA8",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UCgrNz-aDmcr2uuto8_DL2jg",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/ZswtbrleL4K7ameGvmiWb-FTsBCPpWf9Awwt6rUTQtbKe-sf1MbdvxtCGAqcdp7rksGs0oi1=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "al-jazeera",
+      "name": "Al Jazeera English",
+      "category": "News",
+      "accent": "#B8860B",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UCNye-wNBqNL5ZzHSJj3l8Bg",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/XsTga3Nsfc1E6ZgC6HfHfzTG_3zhuZleOnsKxSK2aILMjwkkIm-0vdALFaU-yt0Lw07iLtbSifk=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "abn-news",
+      "name": "ABN News",
+      "category": "News",
+      "accent": "#2471A3",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UC_LasHwH-kf4ALZ0ZZqLLLg",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/ZPB66gqjW0XVd8OUwFruLnL6VIMzgQzbLEm3tOzg2opjdi3BX1iC5PJhE7qWIzYoelWN7pdxWQ=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "city-21-news",
+      "name": "City 21 News",
+      "category": "News",
+      "accent": "#CA6F1E",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UCB-8E662xOk1I3-wdhTMNiw",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/9VAUoalQrBK3-dLtiyBdIhMGKWsoY5ofox4BExjWznEAiHVPQLu4-P2YGyAQj6xLLkmLC9mWOw=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "rohi-tv",
+      "name": "Rohi TV",
+      "category": "News",
+      "accent": "#7B241C",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UCHlCp7kL8jC9HJrSVJuNJzA",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/mtpRk3KPGkLtoUuFHouH_d6Ro2ev2pBl1Jjwek-A86Oam5BLlNAmGvIgQAAJB9lobHPjFlbXLQ=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "see-tv",
+      "name": "See TV",
+      "category": "News",
+      "accent": "#5B2C6F",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UCwGY3cizDunok7xSHAZXTVg",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_m6005YfCowYyUir7PlVoniD-v5S_FHK_0bvzW7_8Lqag=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "ary-digital",
+      "name": "ARY Digital",
+      "category": "Drama",
+      "logoUrl": "https://live.arydigital.tv/apple-touch-icon.png",
+      "accent": "#C8102E",
+      "sources": [
+        {
+          "type": "hls_api",
+          "url": "https://live.arydigital.tv/api/live-stream-url",
+          "jsonField": "url",
+          "headers": {
+            "Referer": "https://live.arydigital.tv/"
+          },
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "hum-tv",
+      "name": "Hum TV",
+      "category": "Drama",
+      "accent": "#C2185B",
+      "sources": [
+        {
+          "type": "hls_scrape",
+          "url": "https://hum.tv/live/",
+          "pattern": "aHR0cHM6[A-Za-z0-9+/=_-]{40,}",
+          "decode": "base64",
+          "maxHeight": 720
+        },
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UCEeEQxm6qc_qaTE7qTV5aLQ",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/zA-EJBUBG8nI8atakCCYgxw6c42fzoxDgIK_3bao7CRZaOR3aBc02VciNymKFMJxYPmQKnnL=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "express-entertainment",
+      "name": "Express Entertainment",
+      "category": "Drama",
+      "accent": "#C62828",
+      "logoUrl": "https://i.ytimg.com/vi/08SxrCimAuc/hqdefault.jpg",
+      "sources": [
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOznredReI6SEDBXavk3CaIhK",
+          "label": "Bhanwar | Full Episodes",
+          "thumbUrl": "https://i.ytimg.com/vi/08SxrCimAuc/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOzlht3zHzM0Z5oHVRZ7ZBsWr",
+          "label": "Raja London Ka | Best Scenes",
+          "thumbUrl": "https://i.ytimg.com/vi/8oVCLrPYg18/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOzns7wEnZvKrKrR3a-c_bK1x",
+          "label": "Raja London Ka | Full Episodes",
+          "thumbUrl": "https://i.ytimg.com/vi/clfHXf3dToQ/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOzn0l934JF0iESE03b-mjvw2",
+          "label": "Deewani Mastani | Telefilm - Best Scenes",
+          "thumbUrl": "https://i.ytimg.com/vi/XGS9W-7mJDg/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOznkMObmk_Ia6Xy7d-VDJay2",
+          "label": "Do Pahiyon Ki Prem Kahani | Telefilm - Best Scenes | 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/YcSTYMlx-FA/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOzmAMvJ-58EIfHEgfbLEYZYY",
+          "label": "Dil Kangla Mangay Bangla | Telefilm - Best Scenes | 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/AYWS3tWHFWE/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOznh4rPZYr4IMn5wU8me2UmV",
+          "label": "Eid al-Adha | 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/viFMCdbr_mQ/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOzmlvpUa9kiDLdaUzXoCsseS",
+          "label": "Bhanwar | Teasers & Promo",
+          "thumbUrl": "https://i.ytimg.com/vi/7d2cGuT_z3U/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOzmvYPA4HZT7TEKXUAWMU_My",
+          "label": "Raja London Ka | Teasers & Promo",
+          "thumbUrl": "https://i.ytimg.com/vi/QkrW1s56xr8/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOzm6awZiHzGu3jvXGodeyiMu",
+          "label": "Shadi Card (Remastered Edition)🎬",
+          "thumbUrl": "https://i.ytimg.com/vi/dMWbcdJ_ueA/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOzkov8JbuFfKyBYTgo-pEnRB",
+          "label": "Missing Darling - Promo & Teasers",
+          "thumbUrl": "https://i.ytimg.com/vi/vBkYf7CSz8w/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOzmSxiMF7iYEJsDEP7-JRG_2",
+          "label": "Missing Darling | Full Episodes",
+          "thumbUrl": "https://i.ytimg.com/vi/6D-SZp_JIIE/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOzkeodWcLAZLKo5v2f5dVc8M",
+          "label": "Mere Pass Raho Tum | Full Episodes",
+          "thumbUrl": "https://i.ytimg.com/vi/eRWye31kZMc/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOznZA3Ku68_F5fN7ppV8lTzY",
+          "label": "Best Scenes | 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/IakcpMlYzaA/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLeb83ChrfOznz7idWtHUo8PFl_c2_4Jcm",
+          "label": "Ay Dushman-e-Jaan | Full Episodes",
+          "thumbUrl": "https://i.ytimg.com/vi/ADf65JSkm4M/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "green-tv",
+      "name": "Green TV",
+      "category": "Drama",
+      "accent": "#0E7C4A",
+      "logoUrl": "https://i.ytimg.com/vi/MHUy6rodMAM/hqdefault.jpg",
+      "sources": [
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b61xmB9YwTwxrGa7Po4t8-d",
+          "label": "Muharram al-Haram 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/MHUy6rodMAM/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b6fl4ixVEE-USXBARjQPWlV",
+          "label": "Intekhab",
+          "thumbUrl": "https://i.ytimg.com/vi/dbL9xd6wvhE/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b7Ll86NYXQGsL_TjG0UnN0g",
+          "label": "Aik Mohabbat Aur",
+          "thumbUrl": "https://i.ytimg.com/vi/8cl8TYft7nY/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b5n2zGocqWVN2lzVGh7QD8H",
+          "label": "Shorts 01",
+          "thumbUrl": "https://i.ytimg.com/vi/-2v2aPaRvhw/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b6NXHosXa0JfCnknf48kvv7",
+          "label": "Laaj",
+          "thumbUrl": "https://i.ytimg.com/vi/dqOtjOlDtwg/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b69Ndy2QVOzw-SDVyIx-L3k",
+          "label": "Podcast",
+          "thumbUrl": "https://i.ytimg.com/vi/vIDuHXqSxCM/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b42fqGMvOS0JEqMGn6SESGw",
+          "label": "Khuda Gawah",
+          "thumbUrl": "https://i.ytimg.com/vi/jeq3uK4OJvU/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b5pnbkMKy7bcQTZ7zj2qcb_",
+          "label": "Short Videos 01",
+          "thumbUrl": "https://i.ytimg.com/vi/FfJpomEqgno/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b4u3qPFxzkWS7RBOxO9-Wkb",
+          "label": "Special Clips",
+          "thumbUrl": "https://i.ytimg.com/vi/x77JqOTAYAk/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b7SkY8U63qkn28gNEqUzoQ8",
+          "label": "Best Clips 01",
+          "thumbUrl": "https://i.ytimg.com/vi/3firHmHoi2U/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b54rs7pNqz_OKOCfqQTNLTC",
+          "label": "Khwaab Meray",
+          "thumbUrl": "https://i.ytimg.com/vi/_CBAniwQK3w/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b6JU3gw1ryAYA061He8Gb1m",
+          "label": "Clip Begunah",
+          "thumbUrl": "https://i.ytimg.com/vi/oOBvkMUXAZ4/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b7RWY0idJvhs-XKIki3B53r",
+          "label": "Short Videos 04",
+          "thumbUrl": "https://i.ytimg.com/vi/vGcoyQUBfpQ/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b76WJ-EKZn2JS09WSNeKFHo",
+          "label": "Shorts 01",
+          "thumbUrl": "https://i.ytimg.com/vi/_e0eFlj4JOQ/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b4kCUtrxDX-5UkXaJMQX_09",
+          "label": "Jahannum Ba'raasta Jannat (JBJ)",
+          "thumbUrl": "https://i.ytimg.com/vi/hdk4V7QsTqc/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b7An8LBaxMeKnvmbwtRksdY",
+          "label": "Eid Special 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/OXgcm0sXJR0/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b4gywBkGz0Gy4a4Nj2LdnwB",
+          "label": "Short Videos 02",
+          "thumbUrl": "https://i.ytimg.com/vi/ZJNA57cvY3E/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b7ry5jboPLYHEXv1QsA2L3V",
+          "label": "Ramzan Special Shorts",
+          "thumbUrl": "https://i.ytimg.com/vi/q7DM6HDSjQY/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLs2CG9JU32b7pGIyYk0jsGOrUIa_Ou2qF",
+          "label": "Fasaana Mart Ka",
+          "thumbUrl": "https://i.ytimg.com/vi/lfvuHT5vs3s/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "hum-tv-2",
+      "name": "Hum TV 2",
+      "category": "Drama",
+      "accent": "#C2185B",
+      "logoUrl": "https://i.ytimg.com/vi/NXgWZn4e6Ag/hqdefault.jpg",
+      "sources": [
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18ssH2yhxg-L5DpsgzG-IIugT",
+          "label": "Marg e Wafa",
+          "thumbUrl": "https://i.ytimg.com/vi/NXgWZn4e6Ag/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18ssqc8MTkNttDsLZiEn7fZsm",
+          "label": "The Next Salahuddin",
+          "thumbUrl": "https://i.ytimg.com/vi/nFcKtLF6bUA/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18svPNDIIaDxhuEwEccDCUzym",
+          "label": "Eid Show",
+          "thumbUrl": "https://i.ytimg.com/vi/29wyyccH3Cs/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18ss46-T0XA8PCFzbJl2SASMZ",
+          "label": "Telefilms",
+          "thumbUrl": "https://i.ytimg.com/vi/oJYP2YgUqV0/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18svwGA1RhhLjM85JXFQ8bY_m",
+          "label": "Shorts 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/b4f21lv3Ecc/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18svc6xZWUpRtY2sD_NTkt11c",
+          "label": "Short Scenes",
+          "thumbUrl": "https://i.ytimg.com/vi/bkB9o5YXZLA/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18sveQs3MC6nQtTCBHzpklnIl",
+          "label": "HWLA 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/985EUGh_caA/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18sth34_TTeCLW8hOTo32B4J7",
+          "label": "Red Carpet",
+          "thumbUrl": "https://i.ytimg.com/vi/985EUGh_caA/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18ssS3CAA93uoYbF5mJswWkhf",
+          "label": "Winter Love",
+          "thumbUrl": "https://i.ytimg.com/vi/f4_JPHrqqgA/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18stlonmhbUhh7Y_VVoHNAmQs",
+          "label": "HUM Bridal Couture Week 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/9jrHoXmNhs0/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18ssRgIkQMuT2_fBT03HnPdXR",
+          "label": "Saba Easy Load Wali",
+          "thumbUrl": "https://i.ytimg.com/vi/XV_1PzwMRf0/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18sstpZvED7SqX-DNOYhz_D1n",
+          "label": "Masti Gate",
+          "thumbUrl": "https://i.ytimg.com/vi/uuGQiboVOqA/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18su-GOvfwAr4Mkyh-gs1foED",
+          "label": "Daghabaaz Dil",
+          "thumbUrl": "https://i.ytimg.com/vi/oRx89fJmZqM/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18suQXo-ouxUf4ku4VTLkwNUs",
+          "label": "Quick Recap",
+          "thumbUrl": "https://i.ytimg.com/vi/Je7QvCKi_dM/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18sun8e7wSXaE8T2fTa8S0l4c",
+          "label": "Best Of The Highlights",
+          "thumbUrl": "https://i.ytimg.com/vi/TWDF_71xdvM/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18ssMKP_dzLDePTkDcHiPvsgz",
+          "label": "Chapter Closed",
+          "thumbUrl": "https://i.ytimg.com/vi/TWDF_71xdvM/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18suSJDWNkb0skpVQUPKcoXb0",
+          "label": "Bazm e Suroor",
+          "thumbUrl": "https://i.ytimg.com/vi/bSgsp8dHiUk/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18svYMxxrIz-v5dXh3CDjLjGn",
+          "label": "Aye Dil Aazma Nahin",
+          "thumbUrl": "https://i.ytimg.com/vi/DAmR-RLJNcc/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18stLMsLrUWe0EK8jxH8RYaiU",
+          "label": "Musafat",
+          "thumbUrl": "https://i.ytimg.com/vi/XbsE9W9xafE/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18ss77QN60Vt2nDW5WnpYFXP_",
+          "label": "Hadd",
+          "thumbUrl": "https://i.ytimg.com/vi/7zQ8chYB3KA/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18stkqAQ8joC-ccLc_SbdMAEJ",
+          "label": "Epic Shorts",
+          "thumbUrl": "https://i.ytimg.com/vi/b2rYkQUe1iI/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18sutzrD0GlnQyuv5Xx-Kdc1w",
+          "label": "Sirf Shabana",
+          "thumbUrl": "https://i.ytimg.com/vi/gnIlDT5lP38/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18strDXrWzyyx4fnFtHvj1f0x",
+          "label": "Long Story Short",
+          "thumbUrl": "https://i.ytimg.com/vi/VpVZh92Lrwc/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18sv1F1wN2ZN2XTKV3ofUvVTQ",
+          "label": "Raah e Noor",
+          "thumbUrl": "https://i.ytimg.com/vi/x2qGw7VS2hU/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18st3WP3642MS3I2O_G5Vs10Z",
+          "label": "Rah-e-Noor",
+          "thumbUrl": "https://i.ytimg.com/vi/bvB1YEqoQ44/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18stwVZA3IEVR-rYzNVb3RXUi",
+          "label": "Dobara 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/3XQL3sUY97o/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18stL-4qzmRn7dsWgnA6QgC0u",
+          "label": "Woh Dobara",
+          "thumbUrl": "https://i.ytimg.com/vi/WMJltJq8ZC8/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18suv_fIMWZled-aIaQzzSCxN",
+          "label": "Tum Larkay Bhi Na",
+          "thumbUrl": "https://i.ytimg.com/vi/_ixT3k-fFiw/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLbVdwtmx18suou21IXotV1ExAwsCHhMFb",
+          "label": "Dekh Zara Pyar Se",
+          "thumbUrl": "https://i.ytimg.com/vi/mu-DUE_i_-4/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "har-pal-geo",
+      "name": "Har Pal Geo",
+      "category": "Drama",
+      "accent": "#1565C0",
+      "logoUrl": "https://i.ytimg.com/vi/d8wEv8DzxnE/hqdefault.jpg",
+      "sources": [
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1emhgYpfzmOLSuBTgR8fCSn",
+          "label": "Rap Icon",
+          "thumbUrl": "https://i.ytimg.com/vi/d8wEv8DzxnE/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1cK2H26xu1kd262m__ylIM1",
+          "label": "Tapish",
+          "thumbUrl": "https://i.ytimg.com/vi/tiB-__yEN8Y/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1eh3d_GXX8FBCZiaYtb2vef",
+          "label": "Zabt",
+          "thumbUrl": "https://i.ytimg.com/vi/BbFC-ySV9cw/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1ckgmMTSpufjIhcQm3w3Wjb",
+          "label": "_Zabt",
+          "thumbUrl": "https://i.ytimg.com/vi/x6sDjDHLVcM/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1f7dyrgH8vG4ztWlfZvvKW_",
+          "label": "Jhoom 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/aE5aOEq2Kjw/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1fMVJI8ylboSA8lxPLBR8QA",
+          "label": "P Shorts 2026 New",
+          "thumbUrl": "https://i.ytimg.com/vi/LndrEeE-jtw/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1fkb_sbDyE0HD6x4zgS9lPQ",
+          "label": "Milkiyat",
+          "thumbUrl": "https://i.ytimg.com/vi/QC_HdoKq3Xc/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1ecTi7GSQL7KNWJBSlQwJkQ",
+          "label": "Teaser Shorts",
+          "thumbUrl": "https://i.ytimg.com/vi/K9tEK1m_ias/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1f9yabYZvw5xj4LfXVw0aot",
+          "label": "Shaidai",
+          "thumbUrl": "https://i.ytimg.com/vi/xB8HiMlFE4A/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1cF5MbOb7DGJPu1zUcqJH8_",
+          "label": "Best Scene 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/-OLGUm6FKXE/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1dSaxrVTNeO6tybvtKYZ_dp",
+          "label": "Humrahi",
+          "thumbUrl": "https://i.ytimg.com/vi/ESnSw6n9KBU/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1d-Jw8mKXJQJr6fAFNoiB4v",
+          "label": "Rang De",
+          "thumbUrl": "https://i.ytimg.com/vi/8ijKI7j2l6c/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1fagsxaSBem33MYI8XuW6Wp",
+          "label": "Khush Naseebi",
+          "thumbUrl": "https://i.ytimg.com/vi/iUirPbyouDI/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1c768zHVpu3qheBmN26srAp",
+          "label": "Digital Promo 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/GBu6XWXOphU/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdZNFVCDo_1fP7ldYPZQ5aKLzJ0IyW4PV",
+          "label": "Best Clips 2026",
+          "thumbUrl": "https://i.ytimg.com/vi/TjAfKwDpBpw/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ary-zindagi",
+      "name": "ARY Zindagi",
+      "category": "Entertainment",
+      "logoUrl": "https://yt3.googleusercontent.com/Q8R6iHca0aGyrT71lYW15XBEKo3xeOTmxnaXXHbAmBLg83PFLITs-5k_sT-Jb4uwguVZm3D7o4c=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#8E44AD",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "BuJ793twqPo",
+          "youtubeChannelId": "UCVswAdjz8Ho0y24eVarY5wg",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "chaupal",
+      "name": "Chaupal",
+      "category": "Film",
+      "logoUrl": "https://yt3.googleusercontent.com/HgKb0nMDlIaByYmSotEb38cbO5Q68Dby3BHdjEyQQoytVRAxd04fmab276CEfnB10cQ7NidWrw=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#B8860B",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "9pyKi-9Tgh4",
+          "youtubeChannelId": "UCvgq34oIQML8MRBHBYcDcSA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "ary-musik",
+      "name": "ARY Musik",
+      "category": "Music",
+      "accent": "#E91E63",
+      "sources": [
+        {
+          "type": "hls_scrape",
+          "url": "https://live.arymusik.tv/",
+          "pattern": "https://arymusik\\.aryzap\\.com/[^\\\"'\\s\\\\]+main\\.m3u8[^\\\"'\\s\\\\]*",
+          "headers": {
+            "Referer": "https://live.arymusik.tv/"
+          },
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "national-geographic",
+      "name": "National Geographic",
+      "category": "Documentary",
+      "logoUrl": "https://yt3.googleusercontent.com/4o29ZduZnGmxuRtqNf50bJtzmUtWaeh4W4cYuEXvQBz887R75UMRboX4zbNe71EO4hGgwwnr=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#723893",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "tbLcWRxPel0",
+          "youtubeChannelId": "UCpVm7bg6pXKo1Pr6k5kxG9A",
+          "maxHeight": 1080
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLNxd9fYeqXeYhu-E3T5CC_XjgO9aNuzjq",
+          "label": "Savage Kingdom",
+          "thumbUrl": "https://i.ytimg.com/vi/Wi1WJKOLERU/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLSPTbJBf_Xnt9uVeGsCieXpXyV8R2GedS",
+          "label": "LION: Rise of the King",
+          "thumbUrl": "https://i.ytimg.com/vi/IcQqeMMy_PE/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLivjPDlt6ApT3hUwHaxPxoio9Uf3mPcoq",
+          "label": "Trafficked with Mariana van Zeller",
+          "thumbUrl": "https://i.ytimg.com/vi/paIlsaijH7I/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLq0VlOU5qkOTPi9co2L0JBcy04TBpFqi8",
+          "label": "Megastructures",
+          "thumbUrl": "https://i.ytimg.com/vi/xi6r3hZe5Tg/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLSPTbJBf_XntrUb631NaJ0av5VYonwNUL",
+          "label": "Africa's Deadliest (Hindi)",
+          "thumbUrl": "https://i.ytimg.com/vi/OIhiVwcMa9I/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLNc-MOXzMFizu5Q4wSO0V26ZHlMpTipi5",
+          "label": "National Documentary (Hindi)",
+          "thumbUrl": "https://i.ytimg.com/vi/Fsogkt4sJWo/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PL9WEM84rU7Y92nhWLqGFl9K-OczTvRqTW",
+          "label": "Breakout",
+          "thumbUrl": "https://i.ytimg.com/vi/75lVkyWYt9U/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLfi7HHR5yQQzFywbqQomttHATXfGJQSa6",
+          "label": "Air Crash Investigation (Hindi)",
+          "thumbUrl": "https://i.ytimg.com/vi/acYg5bZSaUQ/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLEFEC294987DAC0F4",
+          "label": "Locked Up Abroad",
+          "thumbUrl": "https://i.ytimg.com/vi/tESd_GkKd6c/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "discovery-channel",
+      "name": "Discovery Channel",
+      "category": "Documentary",
+      "accent": "#0B5FA5",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UCqOoboPm3uhY_YXhvhmL-WA",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/vKoRCXW-DXApKXgoss_Sy50WilIi5Dk5jMHWJzvW2AkP8s4zpxvslHuKmSrzrSVxdX9ll8nX=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "animal-planet",
+      "name": "Animal Planet",
+      "category": "Documentary",
+      "accent": "#1E8449",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UCkEBDbzLyH-LbB2FgMoSMaQ",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/mgv0mC1bviOylGyuUOLveaJhWI1uGCaJ7gpLNAuIFtjcK_H13OsrKDIieTXYPnu7qpovt_peBA=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "ary-qtv",
+      "name": "ARY QTV",
+      "category": "Islamic",
+      "logoUrl": "https://yt3.googleusercontent.com/NljFRPT_QrIRRNyg-FpzxOm20qrSD1mNELt_03fq4p6AU_eygnyupESVFkuhrafL-U1iDMGKow=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#0F7B50",
+      "sources": [
+        {
+          "type": "hls_scrape",
+          "url": "https://live.aryqtv.tv/",
+          "pattern": "https://aryqtv\\.aryzap\\.com/[^\\\"'\\s\\\\]+main\\.m3u8[^\\\"'\\s\\\\]*",
+          "headers": {
+            "Referer": "https://live.aryqtv.tv/"
+          },
+          "maxHeight": 1080
+        },
+        {
+          "type": "youtube",
+          "url": "k0unDXRANyc",
+          "youtubeChannelId": "UCE2oY4S4wOu6WofU2YbfWsw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "al-ehsaan-tv",
+      "name": "Al Ehsaan TV",
+      "category": "Islamic",
+      "accent": "#93386C",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "l_cYStYuj0E",
+          "youtubeChannelId": "UC35DFBfGRqIGWYYgs_KiPQQ",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/zu01aHrZbVMFVWNeD4vYIxTeKbQ1ZYe59o_Jb0GXfc1KlHFloEw-6tSPd5QnUv0jtW11-u1n=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "paigham-tv",
+      "name": "Paigham TV",
+      "category": "Islamic",
+      "logoUrl": "https://yt3.googleusercontent.com/Rtg34pX001-xyk2bfaH5by6AYbzSh0COPCGiCkBH1pD7KYKe3OAze-jWe4q-Zzei14GnQn9-2g=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#2C6E49",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "F573rg8UqSo",
+          "youtubeChannelId": "UC7hyoc-WXYfxHRZQAMWRyYQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "saudi-sunnah-madinah",
+      "name": "Saudi Sunnah Madinah TV",
+      "category": "Islamic",
+      "accent": "#145A32",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UCROKYPep-UuODNwyipe6JMw",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_mQEOSPf6okcuPezKOKSfhc6kKQxF1q57i2SsTOazhCg2s=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "saudi-quran-makkah",
+      "name": "Saudi Quran Makkah TV",
+      "category": "Islamic",
+      "accent": "#0B5345",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UCos52azQNBgW63_9uDJoPDA",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_mesiGG76gww2WnpFVUFbMz-s2d4IjJJVhDqJuCVscqKLY=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "baby-tv",
+      "name": "BabyTV",
+      "category": "Cartoons",
+      "accent": "#2E86C1",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "",
+          "youtubeChannelId": "UCGxnmQJquvQwlV_ICDfAKNA",
+          "maxHeight": 1080
+        }
+      ],
+      "logoUrl": "https://yt3.googleusercontent.com/klK9gfmQQVg_VZQcPmidbmLEIAU-6la-o1pLbWjT0o1aUPj27_AdWZ7j55pIQ53herGmBvUj=s480-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "classic-cartoons",
+      "name": "Classic Cartoons",
+      "category": "Cartoons",
+      "accent": "#B9770E",
+      "logoUrl": "https://i.ytimg.com/vi/vx-h5MnJ2ys/hqdefault.jpg",
+      "sources": [
+        {
+          "type": "youtube_playlist",
+          "url": "PL03E61EE42BBA9181",
+          "label": "Mr Bean Animated",
+          "thumbUrl": "https://i.ytimg.com/vi/vx-h5MnJ2ys/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLhiban91e2OqhOrHk7mWakwaHYudX9VMZ",
+          "label": "The Mask: Animated Series",
+          "thumbUrl": "https://i.ytimg.com/vi/rW9ntt8C2ro/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLfrgt_xI4Xq10gi7nsEnBsXL3mgSWwbrm",
+          "label": "The Jetsons",
+          "thumbUrl": "https://i.ytimg.com/vi/csScvgq4X4U/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLLhOnau-tupSzJIVcAKfSFUfUQSdtNCNV",
+          "label": "ThunderCats",
+          "thumbUrl": "https://i.ytimg.com/vi/WL43S8SBHHM/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PL-ON22n0bynGhe2J1G4yhJ9peiskmO2v5",
+          "label": "Captain Planet",
+          "thumbUrl": "https://i.ytimg.com/vi/lkfNZoTmbBs/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLCM74TWufRa1UHCuEvknPdtk8gXG2te1N",
+          "label": "SWAT Kats",
+          "thumbUrl": "https://i.ytimg.com/vi/PAwN8pqdtg8/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLZi9kmcgOoWnTRGNtwK8GdhmGKHE8WVJC",
+          "label": "Classic Popeye",
+          "thumbUrl": "https://i.ytimg.com/vi/z7TzPV_CbJc/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PL90FcmUgZe6AWaenQctBfOtEPWhDzWZIH",
+          "label": "Spider-Man: Animated Series",
+          "thumbUrl": "https://i.ytimg.com/vi/jUZ8FsvqQ08/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLhGipfv0juZWw5lM_NyhY1n32UXVSn37Q",
+          "label": "Superman Cartoon",
+          "thumbUrl": "https://i.ytimg.com/vi/o6tW-9QQ9qs/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLVAwMSjIsbSXGXLQgFupU7a6JHdCC22yu",
+          "label": "Spider-Man 1994 (Hindi)",
+          "thumbUrl": "https://i.ytimg.com/vi/dttZ41CXvEk/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLILJUF69WdPS9z9Ss3C2v7U7XXxI1wFQ_",
+          "label": "Cartoon Food Scenes",
+          "thumbUrl": "https://i.ytimg.com/vi/54au0Ve5I50/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PL4WxrXOwBj1yuXybqixkznEjh8M9YTPV1",
+          "label": "The Addams Family",
+          "thumbUrl": "https://i.ytimg.com/vi/35BMGfDanX4/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLfwaZCzLQya0stahn2NnDLL90gr-emeDx",
+          "label": "Scooby-Doo, Where Are You!",
+          "thumbUrl": "https://i.ytimg.com/vi/IJrSD-_wigU/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLZs0gQed9tMRk949PFfrWhjOVP1PDCrrc",
+          "label": "Classic Donald Duck",
+          "thumbUrl": "https://i.ytimg.com/vi/rg3FLwW0a18/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PL_Qy7yJgd_r0AEChTRT-4Sbx9K-CMtx7V",
+          "label": "Old 30s & 40s Cartoons",
+          "thumbUrl": "https://i.ytimg.com/vi/SRB2YlQOSBI/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLnurtxqhggI_b4eirSz3uI4pK5BiBSbwO",
+          "label": "Saturday Morning Cartoons",
+          "thumbUrl": "https://i.ytimg.com/vi/HEi0wlQl4w4/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLLIU9nFd9IrEALGUz0Bak9LeB0xARiwLN",
+          "label": "The Powerpuff Girls",
+          "thumbUrl": "https://i.ytimg.com/vi/c0KlvkCKpE4/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLX3eGctw1Rws",
+          "label": "Spider-Man (1994)",
+          "thumbUrl": "https://i.ytimg.com/pl_c/PLX3eGctw1Rws/studio_square_thumbnail.jpg?sqp=CL-GwNcG-oaymwEICKoDEPABSFqi85f_AwYI0Pau0gY=&rs=AOn4CLDKBkUIij6qLWaBvpPIIkF9zfft7Q&days_since_epoch=20765"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLZs0gQed9tMQcnKBoXtgJW7mq_LNtfB9g",
+          "label": "Classic Tom & Jerry",
+          "thumbUrl": "https://i.ytimg.com/vi/-Yt8q3M2qSE/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLVDOmNMU8s4Q8mI4o8oKKOR1-7o1X_oE6",
+          "label": "Old Cartoon Network & DC",
+          "thumbUrl": "https://i.ytimg.com/vi/3bLNQgRn-Wg/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLo0OWYjmyFyY7q-QY6zbjsUamL_3LeA6D",
+          "label": "Courage the Cowardly Dog",
+          "thumbUrl": "https://i.ytimg.com/vi/pyEKOY1TIbU/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PL5nqctdRBctoDU9jKLpqQDA3SdkyubXBA",
+          "label": "The Pink Panther Show",
+          "thumbUrl": "https://i.ytimg.com/vi/YZiGDqWNLX4/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLLIU9nFd9IrFICPdrEEqx_jOd_A9_IF8H",
+          "label": "The Flintstones",
+          "thumbUrl": "https://i.ytimg.com/vi/HfUsVrhmn28/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLJz0yZzQiq8p9SlFaC28mcabRIyI6nUk1",
+          "label": "Jackie Chan Adventures",
+          "thumbUrl": "https://i.ytimg.com/vi/-iaY2zX4ieE/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PL8ImJqzk7DAbTl55yNjtSbQ2lxHzkU8hY",
+          "label": "Wacky Races",
+          "thumbUrl": "https://i.ytimg.com/vi/mKRIlqOjFA8/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLCVuwQ1eXVCVq1bq0v1wHqPprpTl-Ye5L",
+          "label": "Wile E. Coyote & Road Runner",
+          "thumbUrl": "https://i.ytimg.com/vi/8JuVMoGj6fE/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLdL20h0eF1WwFP3FcQZg6RFrpqqP4Ow8Q",
+          "label": "TMNT (1987)",
+          "thumbUrl": "https://i.ytimg.com/vi/cA5yaZ4f8jI/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLr9XHJVo--cRey-d1mZVUNd6C6w5QUVr9",
+          "label": "TMNT TV Shows",
+          "thumbUrl": "https://i.ytimg.com/vi/RuOwsy4GbLc/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLCVuwQ1eXVCWbQ06SrBiCZlB1Ci6qJdFw",
+          "label": "The Simpsons",
+          "thumbUrl": "https://i.ytimg.com/vi/Hw3Ko68OQuA/hqdefault.jpg"
+        },
+        {
+          "type": "youtube_playlist",
+          "url": "PLLIU9nFd9IrEbeuVmb2iATkBCDhYs3-v4",
+          "label": "Johnny Bravo",
+          "thumbUrl": "https://i.ytimg.com/vi/TJzhosHITVE/hqdefault.jpg"
+        },
+        {
+          "type": "youtube",
+          "url": "h8c9XngVwA4",
+          "label": "The Jungle Book (1967)",
+          "thumbUrl": "https://i.ytimg.com/vi/h8c9XngVwA4/hqdefault.jpg"
+        }
+      ]
+    }
+  ],
+  "comment": [
+    "Every source below answered when this file was generated.",
+    "'sources' is a preference list: the app tries each in order at play time",
+    "and uses the first that actually responds, so a broadcaster's own stream",
+    "going down falls through to their official YouTube feed automatically.",
+    "type 'hls'        : url is played directly.",
+    "type 'hls_api'    : url returns JSON; 'jsonField' names the manifest field.",
+    "type 'hls_scrape' : url is a web page; 'pattern' is a regex matching the manifest.",
+    "type 'youtube'    : 'youtubeChannelId' is asked for the CURRENT live video at",
+    "                    play time, so the entry survives a stream restart.",
+    "type 'youtube_playlist' : url is a YouTube playlist id from the rights",
+    "                    holder's own channel; opening it lists the episodes.",
+    "Drop an edited copy at /data/data/com.arslan.tv/files/channels.json to change",
+    "the line-up without rebuilding."
+  ]
+}

@@ -1,0 +1,665 @@
+{
+  "comment": [
+    "Every source below answered when this file was generated.",
+    "'sources' is a preference list: the app tries each in order at play time",
+    "and uses the first that actually responds, so a broadcaster's own stream",
+    "going down falls through to their official YouTube feed automatically.",
+    "type 'hls'        : url is played directly.",
+    "type 'hls_api'    : url returns JSON; 'jsonField' names the manifest field.",
+    "type 'hls_scrape' : url is a web page; 'pattern' is a regex matching the manifest.",
+    "type 'youtube'    : 'youtubeChannelId' is asked for the CURRENT live video at",
+    "                    play time, so the entry survives a stream restart.",
+    "Drop an edited copy at /data/data/com.arslan.tv/files/channels.json to change",
+    "the line-up without rebuilding."
+  ],
+  "channels": [
+    {
+      "id": "24-news-hd",
+      "name": "24 News HD",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/jh0d2yGqPLAifpxtp-EWtt1fHYFCp3jfDsOCrGPl6S4NiBon8FF1DaX-sBNAbnIEXsb3DTdo=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#C1121F",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "-RL5XC4p4WY",
+          "youtubeChannelId": "UCcmpeVbSSQlZRvHfdC-CRwg",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "365-news",
+      "name": "365 News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/MNhQtgbHlw0tYGOORhTI64fY5lwqzm1M9EibYkWSOfj8WG1x-4aGOD8ua5sY98InfTjkelI8f7s=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#3A7CA5",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "V1rvnWKUbEc",
+          "youtubeChannelId": "UCJ9Xm9zuJ9w-S7qoDO8N-wA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "92-news",
+      "name": "92 News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/hSTolMeWLzOEL4imZHpmbp_nVqpGU-sFh6k3G0GvPG2Hj7cLGEfNAmbtnwgnatptpHMlXD-7=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#15639B",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "A6ZQOpoh5mc",
+          "youtubeChannelId": "UCsgC5cbz3DE2Shh34gNKiog",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "aik-news",
+      "name": "AIK News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/dZvFPaIsI8rROFwX1uWZK4fu70Md4Ooz6aBez1mkv-XoU7-jKs2DMc1DAFOV3xQN--bJPy5lBg=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#386641",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "X9JOiNrczyM",
+          "youtubeChannelId": "UCgodvJzJEzzJFaQO3rmqJbA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "ary-news",
+      "name": "ARY News",
+      "category": "News",
+      "logoUrl": "https://live.arynews.tv/favicon_io/apple-touch-icon.png",
+      "accent": "#C8102E",
+      "sources": [
+        {
+          "type": "hls_scrape",
+          "url": "https://live.arynews.tv/",
+          "pattern": "https://arynews\\.aryzap\\.com/[^\\\"'\\s\\\\]+main\\.m3u8[^\\\"'\\s\\\\]*",
+          "headers": {
+            "Referer": "https://live.arynews.tv/"
+          },
+          "maxHeight": 1080
+        },
+        {
+          "type": "youtube",
+          "url": "5FW9ZVMR_7M",
+          "youtubeChannelId": "UCk8Xp7mz9MfaQy2VU3FJ4Vg",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "aaj-news",
+      "name": "Aaj News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/7ceWstIx_9L12Q2pwPQWS4-1eIHGxjfzH1cXMIS_bgHtqRYL0yfjERcSU9aCKbYv3CsewJ4v=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#E8511A",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "9lLVNq4lWVk",
+          "youtubeChannelId": "UCgBAPAcLsh_MAPvJprIz89w",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "asia-one-news",
+      "name": "Asia One News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/i6m7oW2yhLtWMSe9oXBfg44g1uRmOg_j_znHXfxrcMzBQtdeE-wN-_HcAD6nVcgVLmawfSJy7Q=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#255C99",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "rMq8YZBxFkg",
+          "youtubeChannelId": "UCQ6bL2errmjnP7JIr3E8kXw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "awaz-tv",
+      "name": "Awaz TV",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/iW3xMTNwdGCHLE4XQn9qlV1fFquDBcVHnd3PeA-OfBqRI6y65fxaM7gkWYjpW87jAS5dtdwh=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#4F772D",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "aZQManZ18w0",
+          "youtubeChannelId": "UCrBoVscXRtoTKZsa2kAGdvw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "bol-news",
+      "name": "BOL News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/DNI1AzS-X2lr10Dx3AGQZdC8iGjN74PHg9FZ0_1mfeoNoUyaZRvD1Pu95pKO-zvQw0eqHlq2WoU=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#1D6F42",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "9N6SWn1BQpA",
+          "youtubeChannelId": "UCz2yxQJZgiB_5elTzqV7FiQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "channel-5",
+      "name": "Channel 5",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/lG_i4LfVC_Ao315tdqkQCeo60hBFQaz_N7QH_y7pEfgsmD3Vl1JG3jPmVusjy2GNYbYHE0lH8XQ=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#93383C",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "k32xXA5wPJU",
+          "youtubeChannelId": "UC_XJhq0u8AkMaCwLDH_PjxA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "city-41",
+      "name": "City 41",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/Bjr41WzgD0Tsj8QidYcmGyz2i_Z7fh8MGBz-d8nNiV5-1eIniy-BsIf54Xblxr-barx4AEg6=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#2B6CB0",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "B-V56vjLOSI",
+          "youtubeChannelId": "UC6UW8OOQQBGdwmnaYLh-qdw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "city-42",
+      "name": "City 42",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/VmDPNdCbi7RGQrI51ZTkWMaWe43CnJsXvYBdQfYA-4E1I-inDJEbEMgubDRr8V05PcBIC9Be=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#1F6FEB",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "KU6qeGmitQ0",
+          "youtubeChannelId": "UCdTup4kK7Ze08KYp7ReiuMw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "dawn-news",
+      "name": "Dawn News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/68a9f3o813BKheJgbuzHk0j5x5PUWXlEzYMDY7vYrZTM7DHQfXk8JBfsqlSV5-KFcMOgps9PmxU=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#3F3893",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "CxtDizYfoQE",
+          "youtubeChannelId": "UCaxR-D8FjZ-2otbU0_Y2grg",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "dunya-news",
+      "name": "Dunya News",
+      "category": "News",
+      "logoUrl": "https://dunyanews.tv/english2026/assets/images/favicon/apple-touch-icon.png",
+      "accent": "#0B5FA5",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://imob.dunyanews.tv/livehd/_definst_/ngrp:dunyalivehd_2_all/playlist.m3u8",
+          "headers": {
+            "Referer": "https://dunyanews.tv/live"
+          },
+          "maxHeight": 720
+        },
+        {
+          "type": "youtube",
+          "url": "e2XVSUYh4S0",
+          "youtubeChannelId": "UCnMBV5Iw4WqKILKue1nP6Hg",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "express-news",
+      "name": "Express News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/k-jivmg9360iSkUzKNQ_BTIXiQvvz2SfV26vOD4X6xQ93JnPqh9u5ouW5cHZerQZ1c0lTxLu3g=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#C0392B",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "KNvaWHgOBMw",
+          "youtubeChannelId": "UCTur7oM6mLL0rM2k0znuZpQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "gnn",
+      "name": "GNN",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/ehEWKNzXNBLXpFaS7qxZJUQ0jLodEMjDuPExRrk1vBUwKPglvxmwbZmpdhlTmsouI5jCGXN9OnE=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#1F6FEB",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "Pzv58lUgiVo",
+          "youtubeChannelId": "UC35KuZBNIj4S5Ls0yjY-UHQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "gtv-network",
+      "name": "GTV Network",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/gh3liruI0qYF-_gexCLRt_ru8npmNJTo6qSyPqKymDE6HUVGU1Gsd2krI5_-RUHZKEviXn8khA=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#8D9338",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "F42n1LbPyxk",
+          "youtubeChannelId": "UC6XLG5YjZfK1p5oY5MJ3NMw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "geo-news",
+      "name": "Geo News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/ba1XSUznVGirkC7dP-iDCf3EcL8uUjDea3-4wxkqdyWGUlCVwLXotwRNdjQBRYg7VQ4dIEI7=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#0A6E3A",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "QZv3cFBmBKA",
+          "youtubeChannelId": "UC_vt34wimdCzdkrzVejwX9g",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "hum-news",
+      "name": "Hum News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/-fU36Wb-OG08ZHxSmjelBIqnu_LD_zVTrGtMrRibHpNtiMWvu1SFeAU4NIMwkrPdyrLYJPmH4Q=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#1A4F8B",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "AHEhtZUMML8",
+          "youtubeChannelId": "UC0Um3pnZ2WGBEeoA3BX2sKw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "k21-news",
+      "name": "K21 News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/G3eMyNlBEzXUGwXYwJPEyit33AEpV8bLdBv93wCXd28bMs2gaapb0akteSdsaXgSCqUi8oZ2kw=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#1E5F74",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "OKi2MPPRrws",
+          "youtubeChannelId": "UConNt7VZRP-w8hwTRPZ6WeQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "ktn-news",
+      "name": "KTN News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/WmXeAQXYgUlIXhxyLeGst0Xz7pZAGBNgohSPc3xeh8aQPmnDlWeC_gHW2-v_84IrC1wviJuLIA=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#A4303F",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "OwdKMeAQ2vg",
+          "youtubeChannelId": "UCRGzK5yQvhJD9-ZYGP436JQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "lahore-news",
+      "name": "Lahore News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_l_OtL7hx23HAh4sLCulRWKXd0VdYHhCV7Ov-eCRL_vKd4=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#2E7D32",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "Gg1btOFUCq8",
+          "youtubeChannelId": "UC0CbUVRC1d1RvunYbp3w2qQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "metro-one",
+      "name": "Metro One",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/5UhfhLCSgWpe18MZt6JvD6yeZxeyX3_44bxpUIA6JzCzx5Is2MOiAZBMLJ1OcuBfkiNZY7NSXA=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#4C9338",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "IkOfcMvpgy0",
+          "youtubeChannelId": "UCAu16_bjhalIo--a_H7_2Pg",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "neo-news",
+      "name": "Neo News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/aZAQq9Po-m-UXHRx1OKX5M26dwyH9RRjTqItIqiKUpiVu_OYbw7v1JQ8ucAOIhkA1HRaclYu=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#17668B",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "rM1jjvdhdoQ",
+          "youtubeChannelId": "UCVFRuO5SJ45-pu8PMLKzS2Q",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "news-one",
+      "name": "News One",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/SgT3DHVZ3ugvFhdqd19GU796_74J5jFdv6RLpDLs23f5WbXwX8P8Tq-ZJoZOn7bTY0CgYb2i7A=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#386F93",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "64JcmjI8-wI",
+          "youtubeChannelId": "UCtlUe8h_zexKmFA9M9y479w",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "ptv-news",
+      "name": "PTV News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/nnqueGOaGSP81pIgfClenqnT2fGNiQH0pgX35GVqWFeO-YLk3dUPWhaAdaHN0w0IXosHxrPM=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#0E5C2F",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "r6T5qL_tr0U",
+          "youtubeChannelId": "UC5RvV_LtR1dxPCVFGw6dxXA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "public-news",
+      "name": "Public News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/I0rRWnohHx4TSJgLIfUOUU_yl2QrodBoRyvaTFovwi3v54AhKzya9_CdFw5fvA-mEfn6UHim=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#B81D24",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "ffeTm5svgDY",
+          "youtubeChannelId": "UCElJZvY_RVra6qjD8WSQYog",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "roze-news",
+      "name": "Roze News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/fry9ExfApgoC_WsaUvwhpa_n_eabytdUqbvYS2W2I4yM8oz5gH_pI_jNfJCDRpDgj9C5opyZ7A=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#9B1C31",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "9mHmeha4nhA",
+          "youtubeChannelId": "UCgpldyt3ujHj6-qLQcYGkyQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "samaa-tv",
+      "name": "Samaa TV",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/tTXEQKei5Aknpq66juIUMMOGsU9iGNzMcWyeYau6bnxMLxN_i7THGsFS1AtQ09OARSklaMZ6_w=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#E2231A",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "MLDQM0QL_-4",
+          "youtubeChannelId": "UCJekW1Vj5fCVEGdye_mBN6Q",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "sindh-tv-news",
+      "name": "Sindh TV News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/vuMpHuHWpQY3jJMGF6ogVAwC3Sk3dRUOfNJu8e5XNpNCuDBnVjKQSoXOeYLAQRIWFnYyz5eHkg=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#1B7A3D",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "fLoGc38EPJc",
+          "youtubeChannelId": "UCdNrdgAx3bT6tXJ-RJ9dOBA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "such-tv",
+      "name": "Such TV",
+      "category": "News",
+      "logoUrl": "https://www.suchtv.pk/images/Such-news-dp.png",
+      "accent": "#D7272F",
+      "sources": [
+        {
+          "type": "hls",
+          "url": "https://video.primexsports.com/suchnews/live/playlist.m3u8",
+          "headers": {
+            "Referer": "https://www.suchtv.pk/live"
+          },
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "sun-news",
+      "name": "Sun News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/Xo5FczPFEZv9X3hitIF1Zi3DlNLvVc07L6K0Kn5VTJ5swEVcOxV_ZWUBxDxg8dQQOHeU7Ag=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#E09F3E",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "XUiTl9ezEX8",
+          "youtubeChannelId": "UCzislLLPhE4aRd-k-WLdLVQ",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "suno-news",
+      "name": "Suno News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/_DgGScTjuw4CQJZjjDFjlhtTBOlyvHRfodLVBUMjWeOWODxtDUnv3KvpH4gUevZCpPQrHDVg2w=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#E4572E",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "F6P-BFV6gWM",
+          "youtubeChannelId": "UCB82Zom1MYh8VV4q7wXkfGA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "vsh-news",
+      "name": "VSH News",
+      "category": "News",
+      "logoUrl": "https://yt3.googleusercontent.com/LCeWAx7-UAbfBFXSmHh7ZKxhL6-IjoYLmMTPNg1bh163QB6F20tts4xopR2RkYErrK08ibx_DQ=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#BC4B51",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "v01-zbmlOB8",
+          "youtubeChannelId": "UCItGdMDIjRTWrYmvVFfjpQA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "ary-digital",
+      "name": "ARY Digital",
+      "category": "Drama",
+      "logoUrl": "https://live.arydigital.tv/apple-touch-icon.png",
+      "accent": "#C8102E",
+      "sources": [
+        {
+          "type": "hls_api",
+          "url": "https://live.arydigital.tv/api/live-stream-url",
+          "jsonField": "url",
+          "headers": {
+            "Referer": "https://live.arydigital.tv/"
+          },
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "ary-zindagi",
+      "name": "ARY Zindagi",
+      "category": "Drama",
+      "logoUrl": "https://yt3.googleusercontent.com/Q8R6iHca0aGyrT71lYW15XBEKo3xeOTmxnaXXHbAmBLg83PFLITs-5k_sT-Jb4uwguVZm3D7o4c=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#8E44AD",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "BuJ793twqPo",
+          "youtubeChannelId": "UCVswAdjz8Ho0y24eVarY5wg",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "chaupal",
+      "name": "Chaupal",
+      "category": "Film",
+      "logoUrl": "https://yt3.googleusercontent.com/HgKb0nMDlIaByYmSotEb38cbO5Q68Dby3BHdjEyQQoytVRAxd04fmab276CEfnB10cQ7NidWrw=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#B8860B",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "9pyKi-9Tgh4",
+          "youtubeChannelId": "UCvgq34oIQML8MRBHBYcDcSA",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "ary-musik",
+      "name": "ARY Musik",
+      "category": "Music",
+      "accent": "#E91E63",
+      "sources": [
+        {
+          "type": "hls_scrape",
+          "url": "https://live.arymusik.tv/",
+          "pattern": "https://arymusik\\.aryzap\\.com/[^\\\"'\\s\\\\]+main\\.m3u8[^\\\"'\\s\\\\]*",
+          "headers": {
+            "Referer": "https://live.arymusik.tv/"
+          },
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "national-geographic",
+      "name": "National Geographic",
+      "category": "Documentary",
+      "logoUrl": "https://yt3.googleusercontent.com/4o29ZduZnGmxuRtqNf50bJtzmUtWaeh4W4cYuEXvQBz887R75UMRboX4zbNe71EO4hGgwwnr=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#723893",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "tbLcWRxPel0",
+          "youtubeChannelId": "UCpVm7bg6pXKo1Pr6k5kxG9A",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "ary-qtv",
+      "name": "ARY QTV",
+      "category": "Religious",
+      "logoUrl": "https://yt3.googleusercontent.com/NljFRPT_QrIRRNyg-FpzxOm20qrSD1mNELt_03fq4p6AU_eygnyupESVFkuhrafL-U1iDMGKow=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#0F7B50",
+      "sources": [
+        {
+          "type": "hls_scrape",
+          "url": "https://live.aryqtv.tv/",
+          "pattern": "https://aryqtv\\.aryzap\\.com/[^\\\"'\\s\\\\]+main\\.m3u8[^\\\"'\\s\\\\]*",
+          "headers": {
+            "Referer": "https://live.aryqtv.tv/"
+          },
+          "maxHeight": 1080
+        },
+        {
+          "type": "youtube",
+          "url": "k0unDXRANyc",
+          "youtubeChannelId": "UCE2oY4S4wOu6WofU2YbfWsw",
+          "maxHeight": 1080
+        }
+      ]
+    },
+    {
+      "id": "paigham-tv",
+      "name": "Paigham TV",
+      "category": "Religious",
+      "logoUrl": "https://yt3.googleusercontent.com/Rtg34pX001-xyk2bfaH5by6AYbzSh0COPCGiCkBH1pD7KYKe3OAze-jWe4q-Zzei14GnQn9-2g=s480-c-k-c0x00ffffff-no-rj",
+      "accent": "#2C6E49",
+      "sources": [
+        {
+          "type": "youtube",
+          "url": "F573rg8UqSo",
+          "youtubeChannelId": "UC7hyoc-WXYfxHRZQAMWRyYQ",
+          "maxHeight": 1080
+        }
+      ]
+    }
+  ]
+}

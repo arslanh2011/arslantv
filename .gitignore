@@ -1,0 +1,19 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.keystore
+!debug.keystore
+*.jks
+keystore.properties
+
+# Build outputs — reproducible from source; attach to a GitHub Release instead
+*.apk
+*.aab
