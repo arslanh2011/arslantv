@@ -24,25 +24,42 @@
 - **Pushed to GitHub** — `github.com/arslanh2011/arslantv`, main branch. The
   keystore and `local.properties` are gitignored and were verified absent
   from the remote; build outputs are excluded too.
+- **GitHub Pages is live** (11 Nov 2026). Pages needs a public repo on a free
+  plan, so `arslantv` was switched from private to public first. Audited
+  before flipping: `upload-keystore.jks` and `keystore.properties` were never
+  committed in any commit, and no key- or password-like strings appear in the
+  110 tracked files. Source is `main` / `/docs`. Verified serving:
+
+  - `https://arslanh2011.github.io/arslantv/privacy.html` → "Privacy Policy — Arslan TV"
+  - `https://arslanh2011.github.io/arslantv/terms.html`
+  - `https://arslanh2011.github.io/arslantv/disclaimer.html`
 
 **Back up `upload-keystore.jks` somewhere off this machine.** With Play App
 Signing a lost upload key can be reset by Google, but it is a support round
 trip you do not want mid-release.
 
-## Left to do — all of it in the browser, none of it automatable
+## BLOCKED — the developer account is closed
 
-### 1. Turn on GitHub Pages (one click)
-The legal pages are already pushed in `docs/`. To make them live:
+Play Console for `arslanh2011@gmail.com` shows one developer account,
+**Inside Australia**, with Policy status **Account closed**:
 
-**github.com/arslanh2011/arslantv → Settings → Pages → Source: Deploy from a
-branch → Branch: `main`, folder: `/docs` → Save.**
+- Closed: **7 Mar 2025, 9:54 PM** — "because it was not being used"
+- Warning sent 30 Dec 2024, deadline 28 Feb 2025
+- "The developer account registration fee is not refundable. To start
+  publishing apps on Google Play, create a new account."
 
-A minute later these are live, and the middle one is the URL Play asks for:
+Nothing in steps 2–5 can proceed on this account. It needs a **new** Play
+developer account: US$25 registration plus identity verification. Creating
+an account and paying the fee are both things the account holder must do in
+person — they cannot be automated or delegated.
 
-- `https://arslanh2011.github.io/arslantv/`
-- `https://arslanh2011.github.io/arslantv/privacy.html`
-- `https://arslanh2011.github.io/arslantv/terms.html`
-- `https://arslanh2011.github.io/arslantv/disclaimer.html`
+Note for when the new account exists: personal developer accounts created
+after Nov 2023 must run a closed test with **at least 12 testers for 14
+continuous days** before production access unlocks. The 19 addresses in
+`testers.txt` already clear that bar, so the closed track below is the
+required path, not an optional one.
+
+## Left to do once there is a live developer account
 
 ### 2. Create the app in Play Console
 App name `Arslan TV: Pakistan Live TV`, language English, type App, Free.
