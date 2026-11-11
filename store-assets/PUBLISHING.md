@@ -16,8 +16,14 @@
 - **Store graphics** — icon, feature graphic, TV banner, 3 phone and 4 TV
   screenshots, all in `screenshots/` and the files beside this one.
 - **Listing copy** — `LISTING.md`, built around the focus keyword.
-- **Privacy policy** — `privacy-policy.html`, written to match what the app
-  actually does. Replace `REPLACE_WITH_YOUR_EMAIL` before you host it.
+- **Legal pages** — `docs/privacy.html`, `docs/terms.html` and
+  `docs/disclaimer.html`, written to match what the app actually does and
+  carrying the cookie, Google-advertising, GDPR and CCPA disclosures AdSense
+  asks for. Pushed to GitHub, ready for Pages.
+- **Tester list** — `testers.txt`, the 19 addresses for the closed track.
+- **Pushed to GitHub** — `github.com/arslanh2011/arslantv`, main branch. The
+  keystore and `local.properties` are gitignored and were verified absent
+  from the remote; build outputs are excluded too.
 
 **Back up `upload-keystore.jks` somewhere off this machine.** With Play App
 Signing a lost upload key can be reset by Google, but it is a support round
@@ -25,13 +31,18 @@ trip you do not want mid-release.
 
 ## Left to do — all of it in the browser, none of it automatable
 
-### 1. Host the privacy policy (5 minutes)
-Play needs a live URL. Any static host works. The quickest free route:
+### 1. Turn on GitHub Pages (one click)
+The legal pages are already pushed in `docs/`. To make them live:
 
-1. Make a public GitHub repo, e.g. `arslan-tv-privacy`.
-2. Upload `privacy-policy.html`, renamed `index.html`.
-3. Settings → Pages → deploy from `main` / root.
-4. The URL will be `https://<your-username>.github.io/arslan-tv-privacy/`.
+**github.com/arslanh2011/arslantv → Settings → Pages → Source: Deploy from a
+branch → Branch: `main`, folder: `/docs` → Save.**
+
+A minute later these are live, and the middle one is the URL Play asks for:
+
+- `https://arslanh2011.github.io/arslantv/`
+- `https://arslanh2011.github.io/arslantv/privacy.html`
+- `https://arslanh2011.github.io/arslantv/terms.html`
+- `https://arslanh2011.github.io/arslantv/disclaimer.html`
 
 ### 2. Create the app in Play Console
 App name `Arslan TV: Pakistan Live TV`, language English, type App, Free.
@@ -53,9 +64,9 @@ data itself; it stores preferences only on the device; the embedded YouTube
 player is a third-party component with its own collection.
 
 ### 5. Closed testing
-Create a closed track, add your 20 testers' Gmail addresses, upload
-`ArslanTV-release.aab`, and roll out. Closed-track review is much lighter
-than production.
+Create a closed track, upload `ArslanTV-release.aab`, and add the 19 testers
+from `testers.txt` (Play accepts a pasted list, one address per line). Roll
+out. Closed-track review is much lighter than production.
 
 ### 6. Before production
 Settle the content-rights question. The listing names broadcasters whose
