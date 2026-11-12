@@ -16,42 +16,53 @@
 - **Store graphics** — icon, feature graphic, TV banner, 3 phone and 4 TV
   screenshots, all in `screenshots/` and the files beside this one.
 - **Listing copy** — `LISTING.md`, built around the focus keyword.
-- **Legal pages** — `docs/privacy.html`, `docs/terms.html` and
-  `docs/disclaimer.html`, written to match what the app actually does and
-  carrying the cookie, Google-advertising, GDPR and CCPA disclosures AdSense
-  asks for. Pushed to GitHub, ready for Pages.
-- **Tester list** — `testers.txt`, the 19 addresses for the closed track.
-- **Pushed to GitHub** — `github.com/arslanh2011/arslantv`, main branch. The
-  keystore and `local.properties` are gitignored and were verified absent
-  from the remote; build outputs are excluded too.
-- **GitHub Pages is live** (11 Nov 2026). Pages needs a public repo on a free
-  plan, so `arslantv` was switched from private to public first. Audited
-  before flipping: `upload-keystore.jks` and `keystore.properties` were never
-  committed in any commit, and no key- or password-like strings appear in the
-  110 tracked files. Source is `main` / `/docs`. Verified serving:
+- **Legal pages are live.** Published as a Google Site (account
+  arslanh2011@gmail.com) and verified serving:
 
-  - `https://arslanh2011.github.io/arslantv/privacy.html` → "Privacy Policy — Arslan TV"
-  - `https://arslanh2011.github.io/arslantv/terms.html`
-  - `https://arslanh2011.github.io/arslantv/disclaimer.html`
+  - `https://sites.google.com/view/arslan-tv/` — home
+  - **`https://sites.google.com/view/arslan-tv/privacy-policy`** ← the URL Play asks for
+  - `https://sites.google.com/view/arslan-tv/terms-of-service`
+  - `https://sites.google.com/view/arslan-tv/disclaimer-and-dmca`
+
+  Visibility is Anyone, and "request search engines not to display" is off,
+  so the pages are reachable and indexable. Source copies are kept on disk at
+  `store-assets/legal/`.
+- **SEO.** The site is built around the focus keyword *Free Pakistani Live TV
+  Channels*: it is the page `<title>`, the H1, the opening sentence and the
+  auto-generated meta description, and the section headings are real heading
+  tags rather than bold text. Verified in the HTML a crawler receives — the
+  exact phrase appears 12 times across the home page, with an FAQ block for
+  long-tail queries.
+- **Tester list** — `testers.txt`, the 19 addresses for the closed track.
+- **Pushed to GitHub** — `github.com/arslanh2011/arslantv`, main branch, code
+  only. `docs/` was removed and gitignored, so the repo no longer carries a
+  website. The keystore and `local.properties` are gitignored and were
+  verified absent from the remote; build outputs are excluded too.
 
 **Back up `upload-keystore.jks` somewhere off this machine.** With Play App
 Signing a lost upload key can be reset by Google, but it is a support round
 trip you do not want mid-release.
 
-## BLOCKED — the developer account is closed
+## The Play Console account
 
-Play Console for `arslanh2011@gmail.com` shows one developer account,
-**Inside Australia**, with Policy status **Account closed**:
+Two accounts have come up, so be clear which one you are in:
 
-- Closed: **7 Mar 2025, 9:54 PM** — "because it was not being used"
-- Warning sent 30 Dec 2024, deadline 28 Feb 2025
-- "The developer account registration fee is not refundable. To start
-  publishing apps on Google Play, create a new account."
+- **Inside Australia** — Policy status **Account closed** (7 Mar 2025, for
+  non-use). Nothing can be published from it; the registration fee is not
+  refundable.
+- **DrewsPro** — personal account, ID `8779729005053619314`, the one your
+  Console link points at. It is live and holds one app, *Sequence King Pro*,
+  in Draft. **This is the account to use.**
 
-Nothing in steps 2–5 can proceed on this account. It needs a **new** Play
-developer account: US$25 registration plus identity verification. Creating
-an account and paying the fee are both things the account holder must do in
-person — they cannot be automated or delegated.
+One account-level item blocks publishing on DrewsPro:
+
+> **Declare your trader status by February 2027 — Action required.** "If you
+> do not declare your trader status, your developer profile and apps will be
+> removed from Google Play globally."
+
+That is a legal declaration about whether you trade as a business or an
+individual, and it carries EU consumer-law obligations. It has to be answered
+by you before an app can go out.
 
 Note for when the new account exists: personal developer accounts created
 after Nov 2023 must run a closed test with **at least 12 testers for 14
@@ -59,7 +70,10 @@ continuous days** before production access unlocks. The 19 addresses in
 `testers.txt` already clear that bar, so the closed track below is the
 required path, not an optional one.
 
-## Left to do once there is a live developer account
+## Left to do
+
+### 1. Declare trader status
+Account-level, blocks everything else.
 
 ### 2. Create the app in Play Console
 App name `Arslan TV: Pakistan Live TV`, language English, type App, Free.
